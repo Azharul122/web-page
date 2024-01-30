@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+:root {
+  background-color: #eeeff0;
+}
+.react-multi-carousel-track {
+}
+
+.react-multi-carousel-track:nth-child(1) {
+  margin-left: 0;
+}
+
+.react-multi-carousel-track > .react-multi-carousel-item {
+}

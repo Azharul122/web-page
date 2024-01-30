@@ -1,0 +1,16 @@
+@media screen and (max-width: 770px) {
+  .profile {
+    display: none;
+  }
+}
+@media screen and (max-width: 400px) {
+  .input-container {
+    width: 130px !important;
+  }
+  .input-container input {
+    font-size: smaller;
+  }
+}
+.input-container .serach-icon {
+  font-size: smaller;
+}
